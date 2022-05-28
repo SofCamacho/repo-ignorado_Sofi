@@ -1,6 +1,9 @@
 #ignorar carpeta contenido secreto
 **/ContenidoSecreto
 
+#ignorar archivo config
+**/config.php
+
 #ignorar archivos con extenxion pdf en assets
 assets/*.pdf
 
@@ -12,3 +15,4 @@ assets/media/images/!*-system.*
 
 #ignorar archivos marcados con la bandera -prueba o -local 
 **/*-local*.*
+**/*-prueba.*
